@@ -1,10 +1,8 @@
 package pertemuan4.latihan;
 
-import pertemuan3.node;
-
 public class Node {
   private int data;
-  private node next;
+  private Node next;
 
   // Inisialisasi atribut node
 
@@ -24,11 +22,11 @@ public class Node {
   }
 
   // Setter & Getter untuk Next
-  public void setNext(node next) {
+  public void setNext(Node next) {
     this.next = next;
   }
 
-  public node getNext() {
+  public Node getNext() {
     return next;
   }
 

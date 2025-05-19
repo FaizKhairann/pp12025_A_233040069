@@ -1,10 +1,8 @@
 package pertemuan4.latihan;
 
-import pertemuan3.node;
-
 public class StrukturList {
 
-  public node HEAD;
+  public Node HEAD;
 
   public boolean isEmpty() {
     return HEAD == null;
@@ -50,8 +48,8 @@ public class StrukturList {
 
   // ADD MID
   public void addMid(int data, int position) {
-    node posNode = null, curNode = null;
-    node newNode = new node(data);
+    Node posNode = null, curNode = null;
+    Node newNode = new Node(data);
     if (HEAD == null) {
       HEAD = newNode;
       return;
